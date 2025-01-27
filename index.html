@@ -1,51 +1,213 @@
-<!-- @format -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <title>calculator</title>
+    <title>template-1</title>
+    <!--Main Template css file-->
+    <link rel="stylesheet" href="css/leon.css" />
+    <!--render all elements normally-->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!--font awesome library-->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <div class="container">
-      <div class="cacculator">
-        <input type="text" id="inputbox" placeholder="0" />
-        <div>
-          <button class="button operator">AC</button>
-          <button class="button operator">DEL</button>
-          <button class="button operator">%</button>
-          <button class="button operator">/</button>
-        </div>
-        <div>
-          <button class="button">7</button>
-          <button class="button">8</button>
-          <button class="button">9</button>
-          <button class="button operator">*</button>
-        </div>
-        <div>
-          <button class="button">4</button>
-          <button class="button">5</button>
-          <button class="button">6</button>
-          <button class="button operator">-</button>
-        </div>
-        <div>
-          <button class="button">1</button>
-          <button class="button">2</button>
-          <button class="button">3</button>
-          <button class="button operator">+</button>
-        </div>
-        <div>
-          <button class="button">00</button>
-          <button class="button">0</button>
-          <button class="button">.</button>
-          <button class="button operator">=</button>
+    <!-- start header -->
+    <div class="header">
+      <div class="container">
+        <img class="logo" src="photo/images.png" alt="" />
+        <div class="links">
+          <span class="icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <ul>
+            <li><a href="#services">services</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
         </div>
       </div>
     </div>
-    <script src="script.js"></script>
+    <div class="landing">
+      <div class="intro-text">
+        <h1>hello there</h1>
+        <p>we are leon super cereative & minmal agency web template</p>
+      </div>
+    </div>
+    <div class="features">
+      <div class="container">
+        <div class="feat">
+          <i class="fas fa-magic fa-3x"></i>
+          <h3>Tell Us Tdea</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
+            perspiciatis dolores consequuntur temporibus optio neque enim nihil
+            vel tenetur rem non excepturi, omnis hic, aperiam pariatur quisquam
+            perferendis! Autem, vel.
+          </p>
+        </div>
+        <div class="feat">
+          <i class="fas fa-gem fa-3x"></i>
+          <h3>Tell Us Tdea</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
+            perspiciatis dolores consequuntur temporibus optio neque enim nihil
+            vel tenetur rem non excepturi, omnis hic, aperiam pariatur quisquam
+            perferendis! Autem, vel.
+          </p>
+        </div>
+        <div class="feat">
+          <i class="fas fa-globe-asia fa-3x"></i>
+          <h3>Tell Us Tdea</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
+            perspiciatis dolores consequuntur temporibus optio neque enim nihil
+            vel tenetur rem non excepturi, omnis hic, aperiam pariatur quisquam
+            perferendis! Autem, vel.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="services" id="services">
+      <div class="container">
+        <h2 class="special-heading">services</h2>
+        <p>Don 't busy, be productive</p>
+        <div class="services-content">
+          <div class="col">
+            <div class="srv">
+              <i class="fas fa-palette fa-2x"></i>
+              <div class="text">
+                <h3>Graphic Design</h3>
+                <p>
+                  Graphic design is the process of visual communication and
+                  problem-solving using one or more of
+                </p>
+              </div>
+            </div>
+            <div class="srv">
+              <i class="fab fa-sketch fa-2x"></i>
+              <div class="text">
+                <h3>UI & UX</h3>
+                <p>
+                  UI/UX design is the process of creating products that are easy
+                  to use and
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="srv">
+              <i class="fas fa-vector-square fa-2x"></i>
+              <div class="text">
+                <h3>Web Design</h3>
+                <p>
+                  Web design is the process of creating a website that is
+                  visually appealing and
+                </p>
+              </div>
+            </div>
+            <div class="srv">
+              <i class="fas fa-pencil-ruler fa-2x"></i>
+              <div class="text">
+                <h3>Web Development</h3>
+                <p>
+                  Web development is the process of building a website that is
+                  functional and
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="image image-column">
+              <img src="photo/services.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="special-heading">Portfolio</h2>
+        <p>If you do right, itwill last forever.</p>
+        <div class="portfolio-content">
+          <div class="card">
+            <img src="photo/0b13ff60c1537270ba3c57fa39232875.jpg" alt="" />
+            <div class="info">
+              <h3>Project Here</h3>
+              <p>Project description here</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="photo/3d32edcb6b8ba3b1eac2537a4ffaa594.jpg" alt="" />
+            <div class="info">
+              <h3>Project Here</h3>
+              <p>Project description here</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="photo/e1ad164b29a3b5e99ef384471ce46763.jpg" alt="" />
+            <div class="info">
+              <h3>Project Here</h3>
+              <p>Project description here</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about" id="about">
+      <div class="container">
+        <h2 class="special-heading">About</h2>
+        <p>
+          Our company is a leading provider of innovative solutions and
+          services.
+        </p>
+        <div class="about-content">
+          <div class="image">
+            <img src="photo/f1695e27a28f0ce41ad5d9fed1580edc.jpg" alt="" />
+          </div>
+          <div class="text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              iusto numquam deleniti esse, fugit natus totam atque beatae
+              aliquam doloremque, perferendis commodi expedita, consequuntur
+              alias excepturi quos laudantium veniam blanditiis.
+            </p>
+            <hr>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis magni exercitationem non, facilis perspiciatis magnam distinctio dignissimos, facere qui molestiae consequatur iusto eum obcaecati alias, itaque corporis! Iste, ut perspiciatis.</p>
+            </hr>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <div class="contact" id="contact">
+      <div class="container">
+        <h2 class="special-heading">Contact</h2>
+        <p>We are born to creat</p>
+        <div class="info">
+          <p class="label">Fel free to drop us a line</p>
+            <a href="mailto:leonagency@gmail.com?subject=contact" class="link">leonagency@gmail.com</a>
+            <div class="sosial"> Find Us On Social Media
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">&copy; 2021 span
+      <span>Leon</span> All Right Reserved
+    </div>
   </body>
 </html>
